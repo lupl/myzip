@@ -3,6 +3,8 @@
 
 #include <QMainWindow>
 
+#include "filemgr.h"
+
 namespace Ui {
 class FileMgrWindow;
 }
@@ -17,6 +19,7 @@ public:
 
 private:
     Ui::FileMgrWindow *ui;
+    FileMgr *flieMgr;
 };
 
 #endif // FILEMGRWINDOW_H
